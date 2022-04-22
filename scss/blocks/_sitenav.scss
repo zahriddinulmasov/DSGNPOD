@@ -1,0 +1,29 @@
+.sitenav{
+    display: flex;
+    align-items: center;
+  }
+
+  .sitenav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 53px;
+  }
+
+  .sitenav__item+.sitenav__item{
+  margin-left: 50px;
+  }
+
+  .sitenav__link{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+
+  .sitenav__link:hover{
+    opacity: 0.4;
+  }

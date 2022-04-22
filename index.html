@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;900&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>SCSS BEM STARTER</title>
+</head>
+<body>
+
+    <!-- MAIN -->
+
+    <main class="main">
+        <section class="hero">
+            <header class="header">
+                <div class="container header--wrapper">
+                    <a class="site-header-logo" href="index.html">
+                        <img class="header__logo" src="./images/logo.svg" alt="logo" width="197" height="49">
+                    </a>
+
+                    <nav class="sitenav">
+                        <ul class="sitenav__list">
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Home</a>
+                            </li>
+
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Episodes</a>
+                            </li>
+
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">About</a>
+                            </li>
+
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Shop</a>
+                            </li>
+
+                            <li class="sitenav__item">
+                                <a class="sitenav__link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <a class="button" href="#">Sign up</a>
+
+                    </nav>
+
+                </div>
+            </header>
+
+            <div class="hero__bottom">
+                <div class="container">
+
+                    <div class="wrapper">
+                        <div>
+                            <div class="hero__desc-wrapper">
+                                <p class="hero__desc">MIKE LEWIS</p>
+                                <p class="hero__desc hero--desc">PERSONAL BRANDING</p>
+
+                            </div>
+
+                            <h1 class="hero__heading">Everyday is Chance to Learn New Things</h1>
+                            <p class="hero__desc-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra laoreet in est tortor quam pretium tellus pretium sit. </p>
+
+                            <a class="hero__link" href="#">Start Listening</a>
+                            <a class="hero__btn" href="#">See all Episodes</a>
+
+                            <p class="hero__desc hero--text">ALSO FIND US ON :</p>
+
+                            <div class="hero__bottom-wrapper">
+                                <a href="#">
+                                    <img src="./images/spotifiy.png" alt="logo" width="85" height="26">
+                                </a>
+
+                                <a href="#">
+                                    <img src="./images/app.png" alt="logo" width="129" height="31">
+                                </a>
+
+                                <a href="#">
+                                    <img src="./images/you-tube.png" alt="logo" width="91" height="20">
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <img src="./images/hero-img.png" alt="bacround" width="559" height="603">
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Episodes -->
+
+        <section class="main-middle">
+            <div class="container latest-container">
+                <div class="main-container">
+                    <h3>Latest Episodes</h3>
+                    <p>View all</p>
+                </div>
+
+                <div class="section">
+                    <ul class="section-list">
+                        <li class="section-item">
+                            <img src="./images/1-li rasm.svg" alt="1-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="1-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="1-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+
+
+                        <li class="section-item">
+                            <img src="./images/2-rasm.svg" alt="2-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="2-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="2-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+
+
+                        <li class="section-item">
+                            <img src="./images/3-rasm.svg" alt="3-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="3-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="3-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+
+
+                        <li class="section-item">
+                            <img src="./images/4-rasm.svg" alt="4-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="4-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="4-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+
+
+                        <li class="section-item">
+                            <img src="./images/5-rasm.svg" alt="5-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="5-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="5-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+
+
+                        <li class="section-item">
+                            <img src="./images/6-rasm.svg" alt="6-li" width="376" height="280">
+                            <p class="item-heading">MIKE LEWIS PERSONAL BRANDING</p>
+                            <h4 class="item-desc">Everyday is Chance to Learn New Things</h4>
+                            <p class="item_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                            <div class="item-section">
+                                <a class="item-link">
+                                    <img src="./images/1-icon.png" alt="6-icon" width="21" height="21">
+                                    <p class="link-desc">Play This Episode</p>
+                                </a>
+                                <span class="item-span">
+                                    <img src="./images/1-soat.png" alt="6-soat" width="21" height="21">
+                                    <p class="span-desc">60 min</p>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet you host -->
+
+        <section class="section">
+            <div class="container meet-container">
+                <div class="meetnav">
+                    <img class="meetnav-top-img" src="./images/meet.png" alt="meet" width="584px" height="598">
+
+                    <div class="meet__heading">
+                        <h2 class="meet__title">
+                            Meet Your Host
+                        </h2>
+
+                        <p class="meet__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa amet leo risus, scelerisque. Vivamus faucibus faucibus tristique ut pellentesque quis. Laoreet tellus et feugiat sit. Ornare a tortor nisl elit ipsum. Purus vel lorem rutrum id cras.
+                        </p>
+                        <p class="meet__text">
+                            Sagittis tellus amet diam, elementum. Netus arcu eu proin ut diam amet. Egestas et nisi, quis ut in nibh nunc. Nulla sed tortor lacus nullam vitae. Tortor sit sit iaculis tortor tincidunt aliquam vestibulum viverra. Amet id dui id proin elementum id vitae ornare.  Tortor sit sit iaculis tortor tincidunt aliquam vestibulum viverra. Amet id dui id proin elementum id vitae ornare.
+                        </p>
+
+                        <button class="meet__botton">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Topis -->
+
+        <section>
+            <div class="container topisc-container">
+                <div class="topics">
+                    <h3 class="topics__heading">
+                        Topics
+                    </h3>
+                    <p class="topics__text">View all</p>
+                </div>
+
+                <div class="topicsnav">
+                    <ul class="topicsnav__list">
+                        <li class="topicsnav__item">
+                            <a class="topicsnav__link" href="index.html">
+                                <img src="./images/personal.png" alt="Personal" width="376px" height="280px">
+                            </a>
+                            <h3 class="topicsnav-title">PERSONAL BRANDING</h3>
+                            <p class="topicsnav-decs">45 episodes</p>
+                        </li>
+
+                        <li class="topicsnav__item">
+                            <a class="topicsnav__link" href="index.html">
+                                <img src="./images/design.png" alt="Personal" width="377px" height="280px">
+                            </a>
+                            <h3 class="topicsnav-title">DESIGN ECOSYSTEM</h3>
+                            <p class="topicsnav-decs">45 episodes</p>
+                        </li>
+
+                        <li class="topicsnav__item">
+                            <a class="topicsnav__link" href="index.html">
+                                <img src="./images/work.png" alt="Personal" width="376px" height="280px">
+                            </a>
+                            <h3 class="topicsnav-title">WORK FROM ANYWHERE</h3>
+                            <p class="topicsnav-decs">45 episodes</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connection -->
+
+        <section class="keep">
+            <div class="container keep--container">
+                <div class="connection">
+                    <h3 class="connection__title">
+                        Keep In Touch and Stay Inspiring Everyday
+                    </h3>
+
+                    <p class="connection__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. At senectus vitae hendrerit massa in.
+                    </p>
+
+                    <form class="connection__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                        <div>
+                            <label for="email"></label>
+                            <input class="connection__email" type="email" id="email" placeholder="Enter Your Email" name="user_email">
+                        </div>
+
+                        <button class="connetion__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="cite-footer">
+        <div class="container footer--container">
+            <div class="footer">
+                <ul class="footer__list">
+                    <li class="footer__item footer__item-logo">
+                        <a class="footer__logo-link" href="#">
+                            <img src="./images/Logo_footer.svg" alt="logo_DSGNPOD" width="197"
+                            height="49">
+                        </a>
+                        <p class="footer__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac vestibulum et quis eu, magna varius.
+                        </p>
+                    </li>
+
+                    <li class="footer__item">
+                        <h5 class="footer__list-title">Sitemap</h5>
+
+                        <a class="footer__link" href="#">Home</a>
+                        <a class="footer__link" href="#">Episodes</a>
+                        <a class="footer__link" href="#">About</a>
+                        <a class="footer__link" href="#">Shop</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <h5 class="footer__list-title">Company</h5>
+
+                        <a class="footer__link" href="#">We are hiring</a>
+                        <a class="footer__link" href="#">Cast Team</a>
+                        <a class="footer__link" href="#">Studio</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <h5 class="footer__list-title">Sitemap</h5>
+
+                        <a class="footer__link" href="#">dsgnpod@gmail.com</a>
+                        <a class="footer__link" href="#"><address>28 Cambridge Avenue San Fransisco 3426</address></a>
+                        <a class="footer__link" href="#">(758) 937 - 2694</a>
+                    </li>
+                </ul>
+
+                <div class="footer__bottom">
+                    <ul class="footer__bottom-list">
+                        <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="#">Facebook</a>
+                        </li>
+
+                        <li class="footer__bottom-item">
+                            <span class="footer__point">•</span>
+                        </li>
+
+                        <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="#">Twitter</a>
+                        </li>
+
+                        <li class="footer__bottom-item">
+                            <span class="footer__point">•</span>
+                        </li>
+
+                        <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="#">Instagram</a>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <div class="site_source">
+                        <p class="site__data">©  2019 The Collective Podcast</p>
+                        <p class="site__security">Terms conditions and Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+.footer--container {
+    background: white;
+}
+
+.footer {
+    padding-bottom: 26px;
+
+    &__logo-link {
+        padding-bottom: 12px;
+    }
+    &__desc {
+        margin: 0;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #1C1B1E;
+        opacity: 0.6;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 175px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item-logo {
+        max-width: 380px;
+    }
+
+    &__list-title {
+        margin: 0;
+        margin-bottom: 19px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    &__link {
+        margin: 7px 0;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        opacity: 0.7;
+    }
+
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__link:active {
+        opacity: 0.4;
+    }
+
+    &__bottom-list {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 17px;
+        max-width: 297px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__bottom-link {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    &__bottom-link:hover {
+        opacity: 0.8;
+    }
+
+    &__bottom-link:active {
+        opacity: 0.4;
+    }
+
+    .site_source {
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .site__data {
+        margin: 0;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+        opacity: 0.7;
+    }
+
+    .site__security {
+        margin: 0;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
